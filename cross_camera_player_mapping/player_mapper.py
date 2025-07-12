@@ -127,7 +127,7 @@ def process_video(video_path, detector, extractor, tracker, save_path):
     if out_writer:
         out_writer.release()
 
-    # Average features per track_id
+    
     for tid in features_dict:
         features_dict[tid] = np.mean(features_dict[tid], axis=0)
     return features_dict
