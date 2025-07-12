@@ -24,16 +24,27 @@ This project maps player identities between two video feeds (broadcast and tacti
 ## Folder Structure
 
 cross_camera_player_mapping/
+
 ├── broadcast.mp4
+
 ├── tacticam.mp4
+
 ├── broadcast_out.mp4 (the output video with anchor boxes)
+
 ├── tacticam_out.mp4  (the output video with anchor boxes)    
+
 ├── yolov11_model.pt  (or download via Google Drive)
+
 ├── player_mapper.py
+
 ├── requirements.txt
+
 ├── utils/
+
 │   ├── detector.py
+
 │   ├── tracker.py
+
 │   └── features.py
 
 
